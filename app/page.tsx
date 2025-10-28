@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <div>
       <p className="text-pink-500 font-bold">Hi Alaa💕</p>
-      <Button variant="default"> hiiii</Button>
+      <Button variant="default" className="tracking-wide">
+        hiiii
+      </Button>
     </div>
   )
 }
